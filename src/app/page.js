@@ -1,6 +1,7 @@
 import HeroSection from '../components/HeroSection';
 import StorySection from '../components/StorySection';
 import FourStepsSection from '../components/FourStepsSection';
+import ReviewCarousel from '../components/ReviewCarousel';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <StorySection />
       <FourStepsSection />
+      <ReviewCarousel />
     </main>
   );
 }
