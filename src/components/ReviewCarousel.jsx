@@ -78,7 +78,7 @@ export default function ReviewCarousel() {
       <div className="absolute inset-0 bg-black/40 z-0" />
       <div className="relative z-10 max-w-7xl mx-auto text-center text-white">
         <Image
-          src="/trustpilot.png"
+          src="/trustpilot.jpg"
           alt="Trustpilot"
           width={200}
           height={60}

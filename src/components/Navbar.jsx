@@ -43,8 +43,7 @@ export default function Navbar() {
                 onMouseLeave={() => setIsServicesOpen(false)}
                 className="absolute top-full left-0 bg-white text-black w-[600px] p-4 rounded-md shadow-lg grid grid-cols-3 gap-4"
               >
-                {[
-                  "Article Writing", "Audio Book", "Author Website", "Blog Writing", "Book Cover",
+                {["Article Writing", "Audio Book", "Author Website", "Blog Writing", "Book Cover",
                   "Children Book", "E-book Writing", "Editing", "Formating", "Ghostwriting",
                   "Proofreading", "Publishing", "Video Book Trailer", "Web Design SEO", "Website Content"
                 ].map((service, idx) => (
@@ -61,13 +60,12 @@ export default function Navbar() {
             )}
           </div>
 
-          <Link href="/about" className="hover:text-cyan-400">About Us</Link>
-          <Link href="/contact" className="hover:text-cyan-400">Contact Us</Link>
+          <Link href="/#contact" className="hover:text-cyan-400">Contact Us</Link>
         </div>
 
         {/* CTA Button */}
         <Link
-          href="/consultation"
+          href="/#contact"
           className="ml-4 bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md font-bold transition flex items-center"
         >
           Get Free Consultations →
