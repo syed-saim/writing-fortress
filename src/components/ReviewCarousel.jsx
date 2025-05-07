@@ -77,13 +77,20 @@ export default function ReviewCarousel() {
     >
       <div className="absolute inset-0 bg-black/40 z-0" />
       <div className="relative z-10 max-w-7xl mx-auto text-center text-white">
+        <a
+        href="https://www.trustpilot.com/review/writingfortress.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
         <Image
-          src="/trustpilot.jpg"
-          alt="Trustpilot"
-          width={200}
-          height={60}
-          className="mx-auto mb-4"
+        src="/trustpilot.jpg"
+        alt="Trustpilot"
+        width={200}
+        height={60}
+        className="mx-auto mb-4 hover:opacity-80 transition"
         />
+        </a>
+
         <p className="text-xl md:text-2xl mb-10">
           Our clients trust us with their dreams and we turn them into a solid reality. Hear it from our clients!
         </p>

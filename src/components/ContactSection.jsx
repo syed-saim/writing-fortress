@@ -23,16 +23,22 @@ export default function ContactSection() {
           <div>
             <h3 className="text-lg font-semibold mt-6 mb-2 border-b border-gray-400 pb-2">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#">
-                <Image src="/icons/facebook.svg" alt="Facebook" width={24} height={24} className="invert" />
-              </a>
-              <a href="#">
-                <Image src="/icons/instagram.svg" alt="Instagram" width={24} height={24} className="invert" />
-              </a>
-              <a href="#">
-                <Image src="/icons/linkedin.svg" alt="LinkedIn" width={24} height={24} className="invert" />
-              </a>
+            <a
+            href="https://www.instagram.com/writingfortress.co/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            <Image src="/icons/instagram.svg" alt="Instagram" width={24} height={24} className="invert" />
+            </a>
+            <a
+            href="https://www.linkedin.com/company/106985709/admin/dashboard/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            <Image src="/icons/linkedin.svg" alt="LinkedIn" width={24} height={24} className="invert" />
+            </a>
             </div>
+
           </div>
         </div>
 
