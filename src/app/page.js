@@ -6,10 +6,12 @@ import QualitySection from '../components/QualityService';
 import FAQSection from '../components/FAQSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
+import ExitPopup from '@/components/ExitPopup';
 
 export default function Home() {
   return (
     <main>
+      <ExitPopup />
       <HeroSection />
       <StorySection />
       <FourStepsSection />
